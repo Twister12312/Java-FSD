@@ -1,7 +1,6 @@
 package Fix_bugs;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 
@@ -37,14 +36,7 @@ public class Desk_Application {
                 "5. I wish to search for a particular expenditure",
                 "6. Close the application"
         };
-        //ArrayList<Integer> arrlist = new ArrayList<Integer>();
-        //ArrayList<Integer> expenses = new ArrayList<Integer>();
-        /*expenses.add(1000);
-        expenses.add(2300);
-        expenses.add(45000);
-        expenses.add(32000);
-        expenses.add(110);
-        expenses.addAll(arrlist); */
+      
         
         int[] arr1 = {1,2,3,4,5,6};
         int  slen = arr1.length;
