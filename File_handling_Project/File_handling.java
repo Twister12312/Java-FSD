@@ -29,7 +29,7 @@ public class File_handling {
 		File file2= new File("D:\\WORK FOLDER\\Outputs-JAVA FSD\\FileforReadfile\\Empty.txt");//writing into this
 		Scanner sc;
 		//READ FROM FILE
-		try {
+		/*try {
 			sc = new Scanner(file);
 			System.out.println("Reading from file location..");
 			while (sc.hasNextLine())
@@ -40,11 +40,11 @@ public class File_handling {
 			e.printStackTrace();
 		}
 		
-		System.out.println();
+		System.out.println();*/
 		//WRITE TO A FILE
 		String textAdd="This text is now written in this file!";
 		
-		try {
+		/*try {
 		FileWriter fWriter = new FileWriter("D:\\WORK FOLDER\\Outputs-JAVA FSD\\FileforReadfile\\Empty.txt");
         fWriter.write(textAdd);
         fWriter.close();
@@ -56,7 +56,7 @@ public class File_handling {
 		
 		catch(IOException e) {
 			System.out.println("File location incorrect!");
-		}
+		}*/
 		
 		System.out.println();
 		//APPEND TO A FILE
